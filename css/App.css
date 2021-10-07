@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* g vars */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 21;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 21;
+}
+
+.btn {
+  width: 118px;
+  height: 48px;
+}
+
+.btn--normal {
+  background: #403432;
+}
+
+.btn:hover {
+  background: #776763;
+}
+
+.btn:disabled {
+  background: #C1B4B1;
+}
+
+.btn--basket {
+  background: #5B3A32;
+}
+
+.nav-list {
+  display: flex;
+}
+
+a {
+  color: #403432;
+}
+
+::marker {
+  display: none;
+}

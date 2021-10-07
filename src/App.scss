@@ -1,0 +1,201 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* g vars */
+$font: 'Merriweather',
+serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+input[type=search] {
+  height: 48px;
+  width: 400px;
+  border: 1px solid #E1E1E1;
+  padding: 13px 23px 14px 16px;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: .1rem;
+}
+
+.btn {
+  width: 118px;
+  height: 48px;
+  color: #F4F6F9;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+/* g vars */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+}
+
+.nav {
+  width: 100%;
+  background: #E5E5E5;
+}
+
+.nav-item {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.nav-link {
+  color: #555555;
+  font-size: 20px;
+  line-height: 21px;
+
+}
+
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 21px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 21px;
+}
+
+
+
+del {
+  color: #A0A0A0;
+}
+
+
+
+.btn--normal {
+  background: #403432;
+}
+
+.btn:hover {
+  background: #776763;
+}
+
+.btn:disabled {
+  background: #C1B4B1;
+}
+
+.btn--basket {
+  background: #5B3A32;
+}
+
+
+
+a {
+  color: #403432;
+}
+
+
+
+::marker {
+  display: none;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+.price {
+  margin-top: 10px;
+}
+
+
+.price-contain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 280px;
+  height: 328px;
+  flex: 5;
+  border: 1px solid #E1E1E1;
+  margin-left: 32px;
+}
+}
