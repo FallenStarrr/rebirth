@@ -25,6 +25,9 @@ function App() {
       <nav className="nav">
         <div className="container">
           <ul className="nav-list">
+    <li className="nav-item">  <div className="square" style={{width: '48px',
+height: '48px', background: '#403432'
+}}></div></li>
             <li className="nav-item">
               <a className="nav-link">Каталог</a>
             </li>
@@ -134,6 +137,9 @@ function App() {
         <nav className="nav">
           <div className="container">
             <ul className="nav-list">
+              <li className="nav-item">  <div className="square" style={{width: '48px',
+height: '48px', background: '#403432'
+}}></div></li>
               <li className="nav-item">
                 <a className="nav-link">Каталог</a>
               </li>
