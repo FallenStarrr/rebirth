@@ -11,9 +11,9 @@ import { useState } from "react";
 function App() {
   const [load, setLoad] = useState(false);
 
-    function fetch() {
+   async function fetch() {
+    setLoad(true);
     setTimeout(async () => {
-      setLoad(true);
       const res = await axios.get("https://jsonplaceholder.typicode.com/posts/1");
       console.log(res.data);
       setLoad(false);
