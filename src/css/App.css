@@ -181,8 +181,18 @@ a {
 .loader {
   width: 100vh;
   height: 100vh;
-  background-color: lavender;
+  border: 5px blue solid;
+ border-top: 5px solid lavender;
   border-radius: 50%;
   position: relative;
   z-index:  100px;
+  animation:  rotate  infinite 1s ease-in-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg) scale(1);
+  } to {
+    transform: rotate(360deg) scale(3);
+  }
 }
